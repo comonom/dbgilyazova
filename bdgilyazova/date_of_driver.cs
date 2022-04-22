@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace bdgilyazova
 {
-    public partial class date_of_driver : Form
+    public partial class date_of_driver : System.Windows.Forms.Form
     {
         public date_of_driver()
         {
             InitializeComponent();
         }
 
-        private void btnOut_Click(object sender, EventArgs e)
+        private void btnOut_Click(object sender, EventArgs e) //выход из системы
         {
             Form1 g = new Form1();
             g.Show();
@@ -25,5 +25,12 @@ namespace bdgilyazova
             return;
         }
 
+        private void btnAnother_Click(object sender, EventArgs e) //переход к другим пользователям
+        {
+            Another another = new Another();
+            another.Show();
+            Hide();
+            return;
+        }
     }
 }

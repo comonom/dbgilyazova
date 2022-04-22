@@ -30,11 +30,11 @@ namespace bdgilyazova
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbLogin = new System.Windows.Forms.Label();
-            this.lbPassword = new System.Windows.Forms.Label();
-            this.tbLogin = new System.Windows.Forms.TextBox();
-            this.tbPassword = new System.Windows.Forms.TextBox();
             this.btnAuth = new System.Windows.Forms.Button();
+            this.tbPassword = new System.Windows.Forms.TextBox();
+            this.tbLogin = new System.Windows.Forms.TextBox();
+            this.lbPassword = new System.Windows.Forms.Label();
+            this.lbLogin = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,38 +52,6 @@ namespace bdgilyazova
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Авторизация";
             // 
-            // lbLogin
-            // 
-            this.lbLogin.AutoSize = true;
-            this.lbLogin.Location = new System.Drawing.Point(17, 34);
-            this.lbLogin.Name = "lbLogin";
-            this.lbLogin.Size = new System.Drawing.Size(38, 13);
-            this.lbLogin.TabIndex = 0;
-            this.lbLogin.Text = "Логин";
-            // 
-            // lbPassword
-            // 
-            this.lbPassword.AutoSize = true;
-            this.lbPassword.Location = new System.Drawing.Point(17, 89);
-            this.lbPassword.Name = "lbPassword";
-            this.lbPassword.Size = new System.Drawing.Size(45, 13);
-            this.lbPassword.TabIndex = 1;
-            this.lbPassword.Text = "Пароль";
-            // 
-            // tbLogin
-            // 
-            this.tbLogin.Location = new System.Drawing.Point(70, 31);
-            this.tbLogin.Name = "tbLogin";
-            this.tbLogin.Size = new System.Drawing.Size(100, 20);
-            this.tbLogin.TabIndex = 2;
-            // 
-            // tbPassword
-            // 
-            this.tbPassword.Location = new System.Drawing.Point(70, 89);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(100, 20);
-            this.tbPassword.TabIndex = 3;
-            // 
             // btnAuth
             // 
             this.btnAuth.Location = new System.Drawing.Point(61, 136);
@@ -94,11 +62,43 @@ namespace bdgilyazova
             this.btnAuth.UseVisualStyleBackColor = true;
             this.btnAuth.Click += new System.EventHandler(this.btnAuth_Click);
             // 
+            // tbPassword
+            // 
+            this.tbPassword.Location = new System.Drawing.Point(70, 89);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(100, 20);
+            this.tbPassword.TabIndex = 3;
+            // 
+            // tbLogin
+            // 
+            this.tbLogin.Location = new System.Drawing.Point(70, 31);
+            this.tbLogin.Name = "tbLogin";
+            this.tbLogin.Size = new System.Drawing.Size(100, 20);
+            this.tbLogin.TabIndex = 2;
+            // 
+            // lbPassword
+            // 
+            this.lbPassword.AutoSize = true;
+            this.lbPassword.Location = new System.Drawing.Point(17, 89);
+            this.lbPassword.Name = "lbPassword";
+            this.lbPassword.Size = new System.Drawing.Size(45, 13);
+            this.lbPassword.TabIndex = 1;
+            this.lbPassword.Text = "Пароль";
+            // 
+            // lbLogin
+            // 
+            this.lbLogin.AutoSize = true;
+            this.lbLogin.Location = new System.Drawing.Point(17, 34);
+            this.lbLogin.Name = "lbLogin";
+            this.lbLogin.Size = new System.Drawing.Size(38, 13);
+            this.lbLogin.TabIndex = 0;
+            this.lbLogin.Text = "Логин";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(270, 225);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
