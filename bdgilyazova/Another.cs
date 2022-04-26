@@ -15,15 +15,18 @@ namespace bdgilyazova
         public Another()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            date_of_driver f = new date_of_driver();
+           /* date_of_driver f = new date_of_driver();
             f.Show();
-            Hide();
+            Hide();*/
             return;
 
         }
+
+
     }
 }

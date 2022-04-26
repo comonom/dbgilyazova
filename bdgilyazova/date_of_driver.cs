@@ -12,9 +12,14 @@ namespace bdgilyazova
 {
     public partial class date_of_driver : System.Windows.Forms.Form
     {
-        public date_of_driver()
+        public date_of_driver(User user)
         {
             InitializeComponent();
+            tbFIO.Text = user.fullname;
+            tbBirth.Text = user.birth;
+            tbHeight.Text = user.height;
+            tbPassportData.Text = user.passportdata;
+
         }
 
         private void btnOut_Click(object sender, EventArgs e) //выход из системы
@@ -27,6 +32,7 @@ namespace bdgilyazova
 
         private void btnAnother_Click(object sender, EventArgs e) //переход к другим пользователям
         {
+            User user = new User(table.Rows[0]);
             Another another = new Another();
             another.Show();
             Hide();

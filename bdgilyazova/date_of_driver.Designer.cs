@@ -57,7 +57,7 @@ namespace bdgilyazova
             this.gbInfo.Controls.Add(this.btnOut);
             this.gbInfo.Location = new System.Drawing.Point(0, 0);
             this.gbInfo.Name = "gbInfo";
-            this.gbInfo.Size = new System.Drawing.Size(350, 269);
+            this.gbInfo.Size = new System.Drawing.Size(414, 269);
             this.gbInfo.TabIndex = 0;
             this.gbInfo.TabStop = false;
             this.gbInfo.Text = "Данные пользователя";
@@ -80,7 +80,7 @@ namespace bdgilyazova
             // 
             this.tbFIO.Location = new System.Drawing.Point(153, 23);
             this.tbFIO.Name = "tbFIO";
-            this.tbFIO.Size = new System.Drawing.Size(100, 20);
+            this.tbFIO.Size = new System.Drawing.Size(201, 20);
             this.tbFIO.TabIndex = 1;
             // 
             // tbPassportData
@@ -101,7 +101,7 @@ namespace bdgilyazova
             // 
             // btnAnother
             // 
-            this.btnAnother.Location = new System.Drawing.Point(153, 246);
+            this.btnAnother.Location = new System.Drawing.Point(216, 246);
             this.btnAnother.Name = "btnAnother";
             this.btnAnother.Size = new System.Drawing.Size(126, 23);
             this.btnAnother.TabIndex = 5;
@@ -138,7 +138,7 @@ namespace bdgilyazova
             // 
             // btnOut
             // 
-            this.btnOut.Location = new System.Drawing.Point(275, 246);
+            this.btnOut.Location = new System.Drawing.Point(333, 246);
             this.btnOut.Name = "btnOut";
             this.btnOut.Size = new System.Drawing.Size(75, 23);
             this.btnOut.TabIndex = 0;
@@ -150,7 +150,7 @@ namespace bdgilyazova
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(354, 273);
+            this.ClientSize = new System.Drawing.Size(426, 273);
             this.Controls.Add(this.gbInfo);
             this.Name = "date_of_driver";
             this.Text = "date_of_driver";
