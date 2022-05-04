@@ -12,6 +12,8 @@ namespace bdgilyazova
 {
     public partial class date_of_driver : System.Windows.Forms.Form
     {
+        private object table;
+
         public date_of_driver(User user)
         {
             InitializeComponent();
@@ -37,6 +39,15 @@ namespace bdgilyazova
             another.Show();
             Hide();
             return;
+        }
+
+        private void btnInfoCar_Click(object sender, EventArgs e)
+        {
+            InfoCar infocar = new InfoCar();
+            infocar.Show();
+            Hide();
+            return;
+
         }
     }
 }

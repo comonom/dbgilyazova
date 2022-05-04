@@ -30,6 +30,7 @@ namespace bdgilyazova
         private void InitializeComponent()
         {
             this.gbInfo = new System.Windows.Forms.GroupBox();
+            this.btnInfoCar = new System.Windows.Forms.Button();
             this.tbHeight = new System.Windows.Forms.TextBox();
             this.tbBirth = new System.Windows.Forms.TextBox();
             this.tbFIO = new System.Windows.Forms.TextBox();
@@ -45,6 +46,7 @@ namespace bdgilyazova
             // 
             // gbInfo
             // 
+            this.gbInfo.Controls.Add(this.btnInfoCar);
             this.gbInfo.Controls.Add(this.tbHeight);
             this.gbInfo.Controls.Add(this.tbBirth);
             this.gbInfo.Controls.Add(this.tbFIO);
@@ -61,6 +63,16 @@ namespace bdgilyazova
             this.gbInfo.TabIndex = 0;
             this.gbInfo.TabStop = false;
             this.gbInfo.Text = "Данные пользователя";
+            // 
+            // btnInfoCar
+            // 
+            this.btnInfoCar.Location = new System.Drawing.Point(98, 246);
+            this.btnInfoCar.Name = "btnInfoCar";
+            this.btnInfoCar.Size = new System.Drawing.Size(122, 23);
+            this.btnInfoCar.TabIndex = 10;
+            this.btnInfoCar.Text = "Информация об авто";
+            this.btnInfoCar.UseVisualStyleBackColor = true;
+            this.btnInfoCar.Click += new System.EventHandler(this.btnInfoCar_Click);
             // 
             // tbHeight
             // 
@@ -173,5 +185,6 @@ namespace bdgilyazova
         private System.Windows.Forms.TextBox tbBirth;
         private System.Windows.Forms.TextBox tbFIO;
         private System.Windows.Forms.TextBox tbPassportData;
+        private System.Windows.Forms.Button btnInfoCar;
     }
 }
