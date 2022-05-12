@@ -63,6 +63,7 @@ namespace bdgilyazova
             this.gbInfo.TabIndex = 0;
             this.gbInfo.TabStop = false;
             this.gbInfo.Text = "Данные пользователя";
+            this.gbInfo.Enter += new System.EventHandler(this.gbInfo_Enter);
             // 
             // btnInfoCar
             // 

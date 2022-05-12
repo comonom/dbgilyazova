@@ -15,14 +15,9 @@ namespace bdgilyazova
         public InfoCar()
         {
             InitializeComponent();
-            tbID.Text = InfoCar.id;
-            tbVim.Text = infocar.vim;
+
 
         }
 
-        private void InfoCar_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -49,5 +49,10 @@ namespace bdgilyazova
             return;
 
         }
+
+        private void gbInfo_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

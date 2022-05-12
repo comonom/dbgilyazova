@@ -189,7 +189,6 @@ namespace bdgilyazova
             this.Controls.Add(this.groupBox1);
             this.Name = "InfoCar";
             this.Text = "InfoCar";
-            this.Load += new System.EventHandler(this.InfoCar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
