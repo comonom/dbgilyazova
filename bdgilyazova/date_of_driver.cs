@@ -50,9 +50,12 @@ namespace bdgilyazova
 
         }
 
-        private void gbInfo_Enter(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            search search = new search();
+            search.Show();
+            search.Hide();
+            return;
         }
     }
 }

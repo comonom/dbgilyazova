@@ -31,7 +31,6 @@ namespace bdgilyazova
             if (table.Rows.Count > 0) //если записей больше 0, то данные введены верно
             {
                 User user = new User(table.Rows[0]);
-                InfoCar infocar = new InfoCar(table.Rows[0]);
                 MessageBox.Show("Welcome, "+user.fullname+"!");
                 date_of_driver f = new date_of_driver(user);
                 f.Show();
@@ -49,14 +48,5 @@ namespace bdgilyazova
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }

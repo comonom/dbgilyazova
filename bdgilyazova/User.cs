@@ -28,27 +28,6 @@ namespace bdgilyazova
             birth = Convert.ToString(row["birth"]);
         }
     }
-    public class InfoCar
-    { 
-        public int idcar_data { get; set; }
-        public string vim { get; set; }
-        public string model_of_car { get; set; }
-        public string year_of_release { get; set; }
-        public string fullname_of_driver { get; set; }
-        public string state_number { get; set; }
-        public string employee { get; set; }
-
-     
-        public InfoCar(DataRow row_two)
-        {
-            idcar_data = Convert.ToInt32(row_two["idcar_data"]);
-            vim = Convert.ToString(row_two["vim"]);
-            model_of_car = Convert.ToString(row_two["model_of_car"]);
-            year_of_release = Convert.ToString(row_two["year_of_release"]);
-            fullname_of_driver = Convert.ToString(row_two["fullname_of_driver"]);
-            state_number = Convert.ToString(row_two["state_number"]);
-            employee = Convert.ToString(row_two["employee"]);
-        }
-    }
+   
 }
 

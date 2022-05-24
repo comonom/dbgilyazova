@@ -41,11 +41,13 @@ namespace bdgilyazova
             this.lbHeight = new System.Windows.Forms.Label();
             this.lbFullname = new System.Windows.Forms.Label();
             this.btnOut = new System.Windows.Forms.Button();
+            this.llbSearch = new System.Windows.Forms.LinkLabel();
             this.gbInfo.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbInfo
             // 
+            this.gbInfo.Controls.Add(this.llbSearch);
             this.gbInfo.Controls.Add(this.btnInfoCar);
             this.gbInfo.Controls.Add(this.tbHeight);
             this.gbInfo.Controls.Add(this.tbBirth);
@@ -63,7 +65,6 @@ namespace bdgilyazova
             this.gbInfo.TabIndex = 0;
             this.gbInfo.TabStop = false;
             this.gbInfo.Text = "Данные пользователя";
-            this.gbInfo.Enter += new System.EventHandler(this.gbInfo_Enter);
             // 
             // btnInfoCar
             // 
@@ -159,6 +160,17 @@ namespace bdgilyazova
             this.btnOut.UseVisualStyleBackColor = true;
             this.btnOut.Click += new System.EventHandler(this.btnOut_Click);
             // 
+            // llbSearch
+            // 
+            this.llbSearch.AutoSize = true;
+            this.llbSearch.Location = new System.Drawing.Point(12, 168);
+            this.llbSearch.Name = "llbSearch";
+            this.llbSearch.Size = new System.Drawing.Size(39, 13);
+            this.llbSearch.TabIndex = 11;
+            this.llbSearch.TabStop = true;
+            this.llbSearch.Text = "Поиск";
+            this.llbSearch.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // date_of_driver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,5 +199,6 @@ namespace bdgilyazova
         private System.Windows.Forms.TextBox tbFIO;
         private System.Windows.Forms.TextBox tbPassportData;
         private System.Windows.Forms.Button btnInfoCar;
+        private System.Windows.Forms.LinkLabel llbSearch;
     }
 }
